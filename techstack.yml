@@ -1,0 +1,464 @@
+repo_name: dazeb/mars-server
+report_id: 2a2ac8bf130f4d85e835b87caa0032c6
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:26:57+00:00'
+requested_by: borjapazr
+provider: github
+branch: main
+detected_tools_count: 37
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/dazeb/mars-server
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dazeb/mars-server
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/heimdall/docker-compose.yml
+  detection_source: services/heimdall/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-03-31 23:46:34.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/landing/docker-compose.yml
+  detection_source: services/landing/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-05-24 22:37:22.000000000 Z
+- name: Heroku Postgres
+  description: Heroku's Database-as-a-Service. Based on the most powerful open-source
+    database, PostgreSQL
+  website_url: https://www.heroku.com/postgres
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: PostgreSQL as a Service
+  image_url: https://img.stackshare.io/service/2516/original.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/keycloack/docker-compose.yml
+  detection_source: services/keycloack/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-10-12 20:56:38.000000000 Z
+- name: Kafdrop
+  description: A web UI for viewing Kafka topics and browsing consumer groups
+  website_url: https://github.com/obsidiandynamics/kafdrop
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Kafka Tools
+  image_url: https://img.stackshare.io/service/12806/kafka-drop.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/kafka/docker-compose.yml
+  detection_source: services/kafka/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-11-17 23:29:04.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/kafka/docker-compose.yml
+  detection_source: services/kafka/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-11-17 23:29:04.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/keycloack/docker-compose.yml
+  detection_source: services/keycloack/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-10-12 20:56:38.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/nextcloud/docker-compose.yml
+  detection_source: services/nextcloud/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-01-31 02:48:45.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/gotify/docker-compose.yml
+  detection_source: services/gotify/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-01-29 23:57:01.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: Docker Compose
+  description: Define and run multi-container applications with Docker
+  website_url: https://github.com/docker/compose
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/3136/docker-compose.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dazeb/mars-server
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-11-17 23:37:41.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/landing/docker-compose.yml
+  detection_source: services/landing/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-05-24 22:37:22.000000000 Z
+- name: Netdata
+  description: Monitor your servers, containers, and applications, in high-resolution
+    and in real-time
+  website_url: https://www.netdata.cloud/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/5766/default_041dc1823b117aa375e2976df130a74145238058.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/netdata/docker-compose.yml
+  detection_source: services/netdata/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-04-09 21:50:18.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/landing/docker-compose.yml
+  detection_source: services/landing/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-05-24 22:37:22.000000000 Z
+- name: Portainer
+  description: Open source tool for managing containerized applications
+  website_url: https://www.portainer.io/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/5926/default_527bb25deb193777b18200fb5c25b82418df885d.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/portainer/docker-compose.yml
+  detection_source: services/portainer/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-04-09 21:50:18.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/traefik/docker-compose.yml
+  detection_source: services/traefik/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-02-09 21:11:55.000000000 Z
+- name: Traefik
+  description: The Cloud Native Edge Router
+  website_url: https://traefik.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Load Balancer / Reverse Proxy
+  image_url: https://img.stackshare.io/service/5126/default_0a34be001ec8247c641508aa468564fb386bc50c.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/adguard/docker-compose.yml
+  detection_source: services/adguard/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-02-09 21:11:24.000000000 Z
+- name: Watchtower
+  description: A process for automating Docker container base image updates
+  website_url: https://containrrr.github.io/watchtower/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/11961/default_c154968f06de90d281746931c35cc91e2d8eded0.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/watchtower/docker-compose.yml
+  detection_source: services/watchtower/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-01-29 23:57:01.000000000 Z
+- name: Zookeeper
+  description: Because coordinating distributed systems is a Zoo
+  website_url: http://zookeeper.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Open Source Service Discovery
+  image_url: https://img.stackshare.io/service/1528/apache-zookeeper.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/kafka/docker-compose.yml
+  detection_source: services/kafka/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-11-17 23:29:04.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/kafka/config/application.yml
+  detection_source: services/kafka/config/application.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-11-17 23:29:04.000000000 Z
+- name: Google App Engine
+  description: Build web applications on the same scalable systems that power Google
+    applications
+  website_url: https://developers.google.com/appengine
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/139/s01TMTGn.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/kimai/docker-compose.yml
+  detection_source: services/kimai/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-05-13 18:55:02.000000000 Z
+- name: HTML to Wordpress
+  description: Cloud-based tool that converts your current HTML based website into
+    a Wordpress theme
+  website_url: http://htmltowordpress.io
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: CMS Tools
+  image_url: https://img.stackshare.io/service/4081/Tla1Uq2w.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/wordpress/docker-compose.yml
+  detection_source: services/wordpress/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-04-09 21:50:18.000000000 Z
+- name: Nextcloud
+  description: A self-hosted productivity platform that keeps you in control
+  website_url: https://nextcloud.com/
+  open_source: false
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Storage
+  image_url: https://img.stackshare.io/service/7679/DMp2TQox_400x400.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/nextcloud/docker-compose.yml
+  detection_source: services/nextcloud/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-02-11 20:36:17.000000000 Z
+- name: Adminer
+  description: Full-featured database management tool written in PHP.
+  website_url: https://www.adminer.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/7285/icon.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: Apache Tika
+  description: A content analysis toolkit
+  website_url: https://tika.apache.org/
+  open_source: false
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/6978/default_2d2d8e8ebcd90a047782f44f9cd4174535c47857.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/paperless/docker-compose.yml
+  detection_source: services/paperless/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-04-09 21:50:18.000000000 Z
+- name: Chrome Webstore
+  description: News and updates from Google
+  website_url: https://chrome.google.com/webstore
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5820/5Obhonwa_normal.jpg
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/changedetection/docker-compose.yml
+  detection_source: services/changedetection/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2022-07-26 15:52:29.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/heimdall/docker-compose.yml
+  detection_source: services/heimdall/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-03-31 23:46:34.000000000 Z
+- name: Keycloak
+  description: An open source identity and access management solution
+  website_url: https://www.keycloak.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5439/oAC05cEB_400x400.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/keycloack/docker-compose.yml
+  detection_source: services/keycloack/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-10-12 20:56:38.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/grafana/docker-compose.yml
+  detection_source: services/grafana/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-07-18 14:27:15.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/dazeb/mars-server
+  detection_source: Repo Metadata
+- name: WordPress
+  description: A semantic personal publishing platform with a focus on aesthetics,
+    web standards, and usability.
+  website_url: http://wordpress.org
+  open_source: true
+  hosted_saas: false
+  category: Support, Sales, and Marketing
+  sub_category: Self-Hosted Blogging / CMS
+  image_url: https://img.stackshare.io/service/250/logo.png
+  detection_source_url: https://github.com/dazeb/mars-server/blob/main/services/wordpress/docker-compose.yml
+  detection_source: services/wordpress/docker-compose.yml
+  last_updated_by: Borja Paz Rodríguez
+  last_updated_on: 2021-04-09 21:50:18.000000000 Z
